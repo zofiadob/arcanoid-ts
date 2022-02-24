@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "outDir": "./dist/",
+      "module": "ESNext",
+      "lib": ["es7", "es2015", "dom"],
+      "target": "ESNext",
+      "allowJs": true,
+
+
+    },
+    "include": ["./src/**/*"],
+  }

@@ -1,0 +1,17 @@
+@use './variables' as vars;
+@use './all-box' as all;
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background: vars.$site-background;
+    font-size: vars.$default-size;
+    font-family: vars.$font;
+    height: 100%;
+}
+
+@include all.all-box();

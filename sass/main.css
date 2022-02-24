@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap");
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #463F3A;
+  font-size: 20px;
+  font-family: "Saira", sans-serif;
+  height: 100%;
+}
+
+.center-box {
+  display: grid;
+  place-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.all-box {
+  background: #8A817C;
+  min-height: 5rem;
+  border: 3px solid #FFCD6B;
+  border-radius: 30px;
+}
+.all-box .input-box {
+  background: #F4F3EE;
+  min-height: 50px;
+  width: 100%;
+  border-radius: 30px;
+  margin: 2rem 1rem;
+  box-shadow: inset 0px 9px 23px -16px black;
+}/*# sourceMappingURL=main.css.map */
