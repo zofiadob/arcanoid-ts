@@ -13,22 +13,22 @@ body {
 }
 
 .center-box {
-  display: grid;
-  place-content: center;
+  display: flex;
+  text-align: center;
   height: 100%;
-  width: 100%;
 }
 
 .all-box {
   background: #8A817C;
   min-height: 5rem;
+  width: 100%;
   border: 3px solid #FFCD6B;
   border-radius: 30px;
+  margin: 7rem 2rem;
 }
 .all-box .input-box {
   background: #F4F3EE;
   min-height: 50px;
-  width: 100%;
   border-radius: 30px;
   margin: 2rem 1rem;
   box-shadow: inset 0px 9px 23px -16px black;

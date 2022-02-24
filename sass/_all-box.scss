@@ -3,22 +3,22 @@
 @mixin all-box() {
 
     .center-box{
-        display: grid;
-        place-content: center;
+        display: flex;
+        text-align: center;
         height: 100%;
-        width: 100%;
     }
 
     .all-box{
         background: vars.$calc-background;
         min-height: 5rem;
+        width: 100%;
         border: 3px solid vars.$button-oragne;
         border-radius: 30px;
+        margin: 7rem 2rem;
 
         .input-box{
             background: vars.$input-background;
             min-height: 50px;
-            width: 100%;
             border-radius: 30px;
             margin: 2rem 1rem;
             box-shadow: inset 0px 9px 23px -16px rgba(0, 0, 0, 1);
