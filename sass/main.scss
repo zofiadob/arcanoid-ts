@@ -1,6 +1,7 @@
 @use './variables' as vars;
 @use './all-box' as all;
 @use './buttons' as buttons;
+@use './media' as media;
 
 html{
     box-sizing: border-box;
@@ -21,3 +22,4 @@ body{
 
 @include all.all-box();
 @include buttons.buttons();
+@include media.media

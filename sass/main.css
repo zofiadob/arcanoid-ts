@@ -26,7 +26,7 @@ body {
   background: #8A817C;
   border: 3px solid #FFCD6B;
   border-radius: 30px;
-  margin: auto 2rem;
+  margin: auto 10%;
   width: 100%;
   padding: 0 0.8rem;
 }
@@ -88,4 +88,20 @@ body {
 
 .orange {
   background: #FFCD6B;
+}
+
+@media screen and (min-width: 800px) {
+  .all-box {
+    margin: auto 10rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .all-box {
+    margin: auto 30%;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .all-box {
+    margin: auto 35%;
+  }
 }/*# sourceMappingURL=main.css.map */
