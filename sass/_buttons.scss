@@ -1,12 +1,57 @@
-
+@use './variables' as vars;
 
 @mixin buttons {
     
-    .button-box{
+    .four-wide{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        row-gap: .5rem;
-        column-gap: .5rem;
+        grid-template-rows: repeat(4, 1fr);
+        margin: 0 .6rem;
+        margin-bottom: 2rem;
+
+        img{
+            width: 50%;
+        }
+    }
+
+    .two-wide{
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 0 .6rem;
+
+
+        img{
+            width: 80%;
+        }
+    }
+
+    .button{
+        border-radius: 10px;
+        margin: 0.2rem;
+        padding: .3rem;
+        font-weight: vars.$bold;
+        font-size: 1.5rem;
+        transition: .4s opacity;
+        display: grid;
+        place-content: center;
+
+        &:hover{
+            cursor: pointer;
+            opacity: 70%;
+        }
+
+        &:active{
+            box-shadow: inset 0px 9px 15px -6px rgba(0, 0, 0, 1);
+        }
+        
+    }
+
+    .green{
+        background: vars.$button-green;
+    }
+
+    .orange{
+        background: vars.$button-oragne;
     }
 }

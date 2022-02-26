@@ -1,5 +1,6 @@
 @use './variables' as vars;
 @use './all-box' as all;
+@use './buttons' as buttons;
 
 html{
     box-sizing: border-box;
@@ -15,3 +16,4 @@ body{
 }
 
 @include all.all-box();
+@include buttons.buttons();

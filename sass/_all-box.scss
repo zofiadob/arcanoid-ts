@@ -10,18 +10,20 @@
 
     .all-box{
         background: vars.$calc-background;
-        min-height: 5rem;
-        width: 100%;
         border: 3px solid vars.$button-oragne;
         border-radius: 30px;
-        margin: 7rem 2rem;
+        margin: auto 2rem;
 
         .input-box{
             background: vars.$input-background;
-            min-height: 50px;
+            width: 75%;
             border-radius: 30px;
-            margin: 2rem 1rem;
+            margin: 2rem .6rem;
+            padding: .5rem 1rem;
             box-shadow: inset 0px 9px 23px -16px rgba(0, 0, 0, 1);
+            font-family: vars.$font;
+            font-weight: vars.$bold;
+            font-size: 1.4rem;
         }
     }
 }
