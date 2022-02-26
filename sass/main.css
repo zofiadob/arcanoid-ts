@@ -4,6 +4,10 @@ html {
   height: 100%;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   background: #463F3A;
@@ -23,38 +27,41 @@ body {
   border: 3px solid #FFCD6B;
   border-radius: 30px;
   margin: auto 2rem;
+  width: 100%;
+  padding: 0 0.8rem;
 }
 .all-box .input-box {
   background: #F4F3EE;
-  width: 75%;
+  width: 100%;
   border-radius: 30px;
-  margin: 2rem 0.6rem;
+  margin: 2rem 0;
   padding: 0.5rem 1rem;
   box-shadow: inset 0px 9px 23px -16px black;
   font-family: "Saira", sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
+  box-sizing: border-box;
 }
 
 .four-wide {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  margin: 0 0.6rem;
   margin-bottom: 2rem;
 }
 .four-wide img {
   width: 50%;
+  margin: auto;
 }
 
 .two-wide {
   display: grid;
   grid-template-columns: 1.5fr 1.5fr 1fr;
   grid-template-rows: 1fr;
-  margin: 0 0.6rem;
 }
 .two-wide img {
   width: 80%;
+  margin: auto;
 }
 
 .button {

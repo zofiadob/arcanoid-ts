@@ -6,11 +6,11 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        margin: 0 .6rem;
         margin-bottom: 2rem;
 
         img{
             width: 50%;
+            margin: auto;
         }
     }
 
@@ -18,11 +18,10 @@
         display: grid;
         grid-template-columns: 1.5fr 1.5fr 1fr;
         grid-template-rows: 1fr;
-        margin: 0 .6rem;
-
 
         img{
             width: 80%;
+            margin: auto;
         }
     }
 
